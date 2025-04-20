@@ -1,0 +1,15 @@
+# Ignore logs
+logs/
+*.log
+
+# Ignore Airflow's cached files
+__pycache__/
+*.pyc
+
+dags/*dag*
+DWH
+# Ignore data files that are re-generated
+python_etl/staging/*
+
+# Ignore requirements files if not needed
+requirements.txt
